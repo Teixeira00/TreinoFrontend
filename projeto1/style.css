@@ -23,7 +23,6 @@ a{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 div.contatos{
@@ -75,45 +74,66 @@ div.online{
 div.online:hover{
     background-color: #2ba4afc0;
 }
+/* ---------------------------------------------top-bar------------------------------------------------------------ */
+
 
 .header{
+    width: 100%;
+}
+
+
+
+.center1{
     position: relative;
-    left: 150px;
-    top: 18px;
+    height: 60px;
+    width: 1070px;
+    text-align: center;
+    margin: 18px auto;
+}
+
+div.center1>img{
+    position: absolute;
+    left: 0;
 }
 
 ul{
-    list-style: none;
-    font-weight: 700;
-    display: inline-block;
+    font-weight: bold;
+    display: inline;
+    /* border: 1px solid blue; */
+}
+
+.center2{
+    width: 750px;
     position: absolute;
-    text-align: center;
-    right: 300px;
+    right: 0;
+    top: 19px;
 }
 
 li{
-    display: inline-block;
-    text-align: center;
-    margin-right: 40px;
+    display: inline;
+    padding: 10px 5px;
     font-size: 0.9em;
+    margin-left: 60px;
 }
 
 li:hover{
+    transition: 0.3s;
     cursor: pointer;
     background-color: #003366;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding: 10px 5px;
     border-radius: 20px;
     color: white;
 }
 
 div.ft1{
-    height: 300px;
-    width: 100%;
+    height: 350px;
+    width: 1600px;
+    margin: auto;
     background-image: url("./imagens/primeira.jpg");
     margin-top: 20px;
     background-size: cover;
 }
+/* ---------------------------------------------header------------------------------------------------------------ */
 
 h1{
     color: #003366;
@@ -128,8 +148,13 @@ span{
 div.welcome{
     width: 600px;
     color: #999999;
-    margin: 10px 100px 10px 100px;
-    padding-top: 20px;
+}
+
+.center3{
+    position: relative;
+    height: 370px;
+    width: 1050px;
+    border: 1px solid red;
 }
 
 div.saiba-mais{
@@ -147,4 +172,17 @@ div.saiba-mais:hover{
 }
 
 
+
+.txt1{
+    width: 580px;
+}
+
+.foto1{
+    position: absolute;
+    width: 450px;
+    height: 370px;
+    right: 0;
+    top: 0;
+    background-image:url(https://www.projetoweb.com.br:443/sites-padrao-prontos-simples-baratos-lancamentos/padrao1-programado/template/pw-images/box-01.jpg);
+}
 
