@@ -7,8 +7,8 @@ body{
 
 .top-bar{
     background-color: #003366;
-    width: auto;
-    /* height: 64px; */
+    max-width: 100%;
+    height: auto;
     color: white;
 }
 
@@ -17,36 +17,43 @@ a{
     color: white;
 }
 
+.top-bar .centro {
+    width: 1050px; 
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 div.contatos{
-    padding: 21px 0 21px 0;
     position: relative;
-    padding: 10px 200px 10px 50px;
-    left: 190px;
+    margin: 0 auto;
 }
 
 div.numero{
     width:fit-content;
     display: inline-block;
-    position: relative;
+    /* position: relative; */
 }
 
 div.email{
     width:fit-content;
     display: inline-block;
-    position: relative;
-    left: 100px;
+    /* position: relative; */
+    margin-left: 30px;
 }
 
 div.chat{
     display: inline-block;
     position: relative;
-    left: 200px;
+    left: 90px;
 }
 
 div.wpp{
     display: inline-block;
     background-color: #239529;
-    padding: 10px;
+    padding: 8px;
     border-radius: 20px;
     
 }
@@ -61,7 +68,7 @@ div.online{
     background-color: #2BA5AF;
     position: relative;
     left: 0px;
-    padding: 10px;
+    padding: 8px;
     border-radius: 20px;
 }
 
