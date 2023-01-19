@@ -165,7 +165,7 @@ div.saiba-mais{
     width: fit-content;
 }
 
-div.saiba-mais:hover{
+div.txt1>div.saiba-mais:hover{
     cursor: pointer;
     padding: 22px 52px;
     transition: 0.3s;
@@ -193,9 +193,32 @@ div.saiba-mais:hover{
 .center-ofertas{
     width: 1200px;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bloco1>h2 , .bloco2>h2 , .bloco3>h2{
+    font-weight: 500;
+    margin: 40px auto;
 }
 
 .bloco1 , .bloco2 , .bloco3{
+    height: 550px;
     width: 311px;
-    margin: auto;
+    color: white;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+    text-align: center;
+    padding:15px 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    line-height: 2em;
 }
+
+.bloco1>.saiba-mais , .bloco2>.saiba-mais , .bloco3>.saiba-mais{
+    margin: auto;
+    margin-top: 45px;
+}
+
+
