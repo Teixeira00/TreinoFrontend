@@ -18,7 +18,7 @@ a{
 }
 
 .top-bar .centro {
-    width: 1050px; 
+    width: 1200px; 
     height: 64px;
     margin: 0 auto;
     display: flex;
@@ -82,18 +82,17 @@ div.online:hover{
 }
 
 
-
 .center1{
     position: relative;
     height: 60px;
-    width: 1070px;
+    width: 1200px;
     text-align: center;
     margin: 18px auto;
 }
 
 div.center1>img{
     position: absolute;
-    left: 0;
+    left: 65px;
 }
 
 ul{
@@ -146,15 +145,16 @@ span{
 }
 
 div.welcome{
-    width: 600px;
     color: #999999;
+    margin-top: 20px;
 }
 
 .center3{
-    position: relative;
-    height: 370px;
-    width: 1050px;
-    border: 1px solid red;
+    display: flex;
+    height: 390px;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
 }
 
 div.saiba-mais{
@@ -171,18 +171,31 @@ div.saiba-mais:hover{
     transition: 0.3s;
 }
 
-
-
 .txt1{
     width: 580px;
 }
 
 .foto1{
-    position: absolute;
     width: 450px;
     height: 370px;
-    right: 0;
-    top: 0;
+    margin: auto;
     background-image:url(https://www.projetoweb.com.br:443/sites-padrao-prontos-simples-baratos-lancamentos/padrao1-programado/template/pw-images/box-01.jpg);
+    background-size: cover;
 }
 
+
+/* --------------------------------------------primeiro-texto---------------------------------------------------------- */
+
+.ofertas{
+    background-color: #003366;
+}
+
+.center-ofertas{
+    width: 1200px;
+    margin: auto;
+}
+
+.bloco1 , .bloco2 , .bloco3{
+    width: 311px;
+    margin: auto;
+}
