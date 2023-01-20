@@ -17,6 +17,8 @@ a{
     color: white;
 }
 
+
+
 .top-bar .centro {
     width: 1200px; 
     height: 64px;
@@ -26,7 +28,6 @@ a{
 }
 
 div.contatos{
-    position: relative;
     margin: 0 auto;
 }
 
@@ -36,21 +37,22 @@ div.numero{
     /* position: relative; */
 }
 
-div.email{
+.contatos>.email{
     width:fit-content;
     display: inline-block;
     /* position: relative; */
     margin-left: 30px;
 }
 
-div.chat{
+.contatos>.chat{
     display: inline-block;
     position: relative;
     left: 90px;
+    color: white;
 }
 
 div.wpp{
-    display: inline-block;
+    display: inline;
     background-color: #239529;
     padding: 8px;
     border-radius: 20px;
@@ -63,9 +65,8 @@ div.wpp:hover{
 
 div.online{
     display: inline;
-    width:fit-content;
+    /* width:fit-content; */
     background-color: #2BA5AF;
-    position: relative;
     left: 0px;
     padding: 8px;
     border-radius: 20px;
@@ -208,7 +209,7 @@ div.txt1>div.saiba-mais:hover{
     width: 311px;
     color: white;
     display: inline-block;
-    border: 1px solid rgba(255, 255, 255, 0.192);
+    border: 1px solid rgba(255, 255, 255, 0.192); 
     text-align: center;
     padding:15px 10px;
     margin: 20px 0;
@@ -221,4 +222,72 @@ div.txt1>div.saiba-mais:hover{
     margin-top: 45px;
 }
 
+/* --------------------------------------------produtos-ofertados---------------------------------------------------------- */
+
+.footer{
+    background-color: #003366;
+    margin-top: 500px;
+    height: 200px;
+    display: flex;
+}
+
+.center-final{
+    display: flex;
+    font-size: 0.7em;
+    width: 1100px;
+    /* height: 100px; */
+    margin:  0 auto;
+    justify-content: space-around;
+}
+
+i{
+    font-size: 1.4em;
+    padding-right: 10px;
+}
+
+.contato-fim , .espaco{
+    color: white;
+    width: 300px;
+
+}
+
+.contato-fim{
+    margin: auto 0;
+    line-height: 35px;
+}
+
+div.center-final>img{
+    display: block;
+    margin: auto 0;
+    width: 200px;
+    height: 29px;
+    
+}
+
+.espaco{
+    margin: auto 0;
+    width: 250px;
+    line-height: 40px;
+    text-align: center;
+    /* color: white; */
+}
+
+
+.espaco > .online {
+    padding-right:  116px;
+}
+
+.footer2{
+    color: white;
+    display: flex;
+    margin-top: 1px;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #003366;
+}
+
+.center-footer2{
+    margin: auto;
+    padding: 10px;
+}
 
