@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bloco{
+    border: 1px solid red;
+    max-width: 450px;
+    margin: auto;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    
+}
+
+.container{
+    text-align: center;
+}
+
+/* .container-center{
+    text-align: center;
+} */
+
+.or{
+    color: rgb(134, 134, 134);
+}
+
+ul{
+    border: 1px solid red;
+}
+
+li{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid green;
+
+    /* margin-right: 10px; */
+}
+
