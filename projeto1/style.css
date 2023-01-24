@@ -135,7 +135,7 @@ div.ft1{
 }
 /* ---------------------------------------------header------------------------------------------------------------ */
 
-h1{
+.txt1>h1{
     color: #003366;
     font-weight: 400;
     border-bottom: 5px solid #72120B;
@@ -291,3 +291,46 @@ div.center-final>img{
     padding: 10px;
 }
 
+
+/*---------------------------------------------form------------------------------------------------------------*/
+
+.form-center{
+    margin: auto;
+    width: 900px;
+}
+
+.form-center> h1{
+    color: #003366;
+    border-top: 5px solid #72120B ;
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+}
+
+.form-container{
+    max-width: 900px;
+    padding: 15px;
+    /* justify-content: space-around; */
+    border: 1px solid red;
+}
+
+input{
+    display: block; 
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.info{
+    border: 1px solid red;
+    display: inline;
+}
+
+.text-area{
+    border: 1px solid blue;
+}
+
+textarea{
+    resize: none;
+    height: 200px;
+}
