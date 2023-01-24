@@ -1,10 +1,15 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    
+}
+
+h2, ul, .or{
+    margin-bottom: 20px;
 }
 
 .bloco{
@@ -17,7 +22,7 @@ body{
 }
 
 .container{
-    text-align: center;
+    padding: 40px;
 }
 
 /* .container-center{
@@ -26,6 +31,7 @@ body{
 
 .or{
     color: rgb(134, 134, 134);
+    text-align: center;
 }
 
 ul{
@@ -35,12 +41,40 @@ ul{
 li{
     width: 50px;
     height: 50px;
-    background-color: aqua;
+    background-color: white;
     border-radius: 50%;
     list-style: none;
     display: inline-block;
     border: 1px solid green;
-
+    margin-left: 10px;
     /* margin-right: 10px; */
 }
 
+.facebook{
+    background-image: url(../images/facebook.png);
+    background-size: cover;
+}
+
+.twitter{
+    background-image: url(../images/twitter.png);
+    background-size: cover;
+}
+
+.linkedin{
+    background-image: url(../images/linkedin.png);
+    background-size: cover;
+}
+
+.google{
+    background-image: url(../images/google.png);
+    background-position: 50%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.apple{
+    background-image: url(../images/apple.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50%;
+}
