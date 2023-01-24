@@ -308,29 +308,61 @@ div.center-final>img{
     text-align: center;
 }
 
-.form-container{
-    max-width: 900px;
-    padding: 15px;
-    /* justify-content: space-around; */
-    border: 1px solid red;
-}
-
-input{
-    display: block; 
-    box-sizing: border-box;
-    width: 400px;
+.dados{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 10px;
+    
 }
 
 .info{
-    border: 1px solid red;
-    display: inline;
+    width: 100%;
 }
 
-.text-area{
-    border: 1px solid blue;
+.info > input{ 
+    box-sizing: border-box;
+    width: 100%;
+    padding: 19px 20px;
+    border-radius: 7px;
+    background-color: #c4c4c485;
+    border: 0;
+}
+input:hover{
+    border-left: 2px solid #72120B;
+
+}
+
+#nome , #email{
+    margin-bottom: 10px;
 }
 
 textarea{
+    display: inline-block;
+    width: 100%;
     resize: none;
-    height: 200px;
+    box-sizing: border-box;
+    padding: 19px 20px;
+    margin-left: 5px;
+    background-color: #c4c4c485;
+    border: 0;
 }
+
+textarea:hover{
+    border-left: 2px solid #72120B;
+}
+
+.enviar{
+    color: white;
+    background-color: #72120B;
+    padding: 19px 20px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.enviar{
+    cursor: pointer;
+}
+
+
