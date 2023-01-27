@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: rgb(235, 235, 235);
+}
+
+.center{
+    display: flex;
+    margin: 50px auto;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+.bloco1{
+    background-color: #58AF9C;
+    color: white;
+    width: 450px;
+    height: 500px;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px ;    
+}
+
+.center-bloco1>p{
+    font-size: 0.8em;
+    color:rgba(255, 255, 255, 0.582)
+}
+
+p, .welcome{
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.center-bloco1{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.sign-in{
+    font-size: 0.9em;
+    background-color: #58AF9C;
+    color: rgba(255, 255, 255, 0.788);
+    border: 1px solid rgba(255, 255, 255, 0.788);
+    padding: 8px 40px;
+    border-radius: 15px;
+}
+
+.sign-in:hover{
+    background-color: #b9b9b93f;
+}
+
+.bloco2{
+    color: rgba(119, 119, 119, 0.596);
+    display: flex;
+    width: 450px;
+    height: 500px;
+}
+
+.center-bloco2{
+    text-align: center;
+    height: 350px;
+    margin: auto;
+}
+
+.create{
+    color: #58AF9C;
+}
+
+.center-bloco2>p , input::placeholder{
+    font-size: 0.8em;
+    color: rgba(119, 119, 119, 0.596);
+}
+
+ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+li{
+    display: inline;
+    width: 15px;
+    height: 15px;
+    padding: 13px;
+    border-radius: 30px;
+    margin: 15px 7px;
+    border: 0.5px solid rgba(119, 119, 119, 0.555);
+}
+
+form{
+    margin: auto;
+    width: 250px;
+}
+
+input{
+    box-sizing: border-box;
+    padding: 8px ;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    font-weight: 600;
+    background-color: rgba(119, 119, 119, 0.116);
+}
+
+input:focus{
+    outline: 0;
+}
+
+
+.sign-up{
+    font-size: 0.9em;
+    background-color: #58AF9C;
+    color: rgba(255, 255, 255, 0.788);
+    border: 1px solid rgba(255, 255, 255, 0.788);
+    padding: 8px 40px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.sign-up:hover{
+    background-color: #58af9cc9;
+}
