@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto+Mono:ital@1&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap%27');
+
+*{
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+div.container-main{
+    width: 1140px;
+    margin: 45px auto;
+    font-size: 15px;
+}
+
+div.container-main header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1.logo{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h1.logo>spam{
+    font-weight: 900;
+}
+
+header ul{
+    align-content: space-between;
+    margin-right: 50px;
+}
+
+ul.menu li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+
+ul.menu li a{  
+    text-decoration: none;
+    color: black;
+}
+
+ul.menu li a.buy-ticket{
+    color: white;
+    background-color: #6B76FF;
+    padding: 13px 15px;
+    border-radius: 2px;
+}
+
+ul.menu li a:hover{
+    color: black;
+    transition: 0.4s;
+}
+
