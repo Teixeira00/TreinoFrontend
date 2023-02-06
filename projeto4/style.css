@@ -6,11 +6,25 @@
     padding: 0;
 }
 
+div.container-main div.fundo{
+    background-color: #6199FF;
+}
+
 div.container-main{
     max-width: 1120px;
     margin: 45px auto;
     font-size: 15px;
 }
+
+/* div.container-main-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #6199FF;
+} */
+
 
 /* ------------------------------------------GERAL--------------------------------------------------------- */
 
@@ -46,11 +60,12 @@ ul.menu li a{
     color: black;
 }
 
-ul.menu li a.buy-ticket{
+ul.menu li a.buy-ticket{               /*lembrar de ver responsividade do botão*/
     color: white;
-    background-color: #6B76FF;
+    background-color: #6B76FF;     
     padding: 13px 15px;
     border-radius: 2px;
+    overflow: auto;
 }
 
 ul.menu li a:hover{
@@ -95,6 +110,7 @@ div.container-anuncio div.anuncio div.data{
     font-size: 20px;
     margin-top: 20px;
     font-weight: 300;
+    color: #A2A2A2;
 }
 
 div.container-anuncio div.anuncio div.timer{
@@ -128,6 +144,7 @@ div.container-main div.container-info{
     height: 300px;
     display: flex;
     justify-content:space-between;
+    margin-bottom: 150px;
 }
 
 i{
@@ -137,8 +154,9 @@ i{
 }
 
 div.container-info div.info{
-    width: 250px;
+    width: 230px;
     margin-top: 120px;
+    line-height: 2em;
 }
 
 div.container-info div.info h2{
@@ -150,13 +168,82 @@ div.container-info div.info p{
     color: #A2A2A2;
 }
 
+/* -------------------------------------info--------------------------------------------- */
+
+div.container-main div.fun-facts{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+div.container-main div.fun-facts div.img{
+    background-image: url(https://preview.colorlib.com/theme/eventalk/images/about.jpg.webp);
+    /* height: 700px; */
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.container-main div.fun-facts div.facts{
+    margin: 50px 55px;
+    height: 700px;
+}
+
+div.container-main div.fun-facts div.facts h2{
+    font-weight: 300;
+    color: #A2A2A2;
+    font-size: 1.2em;
+}
+
+div.container-main div.fun-facts div.facts h1{
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: 400;
+    font-size: 2.3em;
+}
+
+div.container-main div.fun-facts div.facts h1 span{
+    font-weight: 700;
+}
+
+div.container-main div.fun-facts div.facts p{
+    color: #A2A2A2;
+    line-height: 2em;
+}
+
+div.facts h1 , div.facts h2 , div.facts p{
+    margin-bottom: 20px;
+}
 
 
+div.container-main div.fun-facts div.facts  div.facts-icons-center{
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+}
+
+div.container-main div.fun-facts div.facts div.facts-icons{
+    display: flex;    
+}
 
 
+div.container-main div.fun-facts div.facts div.facts-icons1 div.icon, .facts-icons2 div.icon{
+    background-color: #00000009;
+    width: 225px;
+    height: auto;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
 
+div.container-main div.fun-facts div.facts div.facts-icons div.icon h1{
+    font-weight: 600;
+}
 
+div.container-main div.fun-facts div.facts div.facts-icons1 div.icon p, div.facts div.facts-icons2 div.icon p{
+    font-weight: 300;
+    color: black;
+}
 
-
+/* ---------------------------------Fun-Facts-------------------------------------------- */
 
 
