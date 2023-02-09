@@ -247,3 +247,76 @@ div.container-main div.fun-facts div.facts div.facts-icons1 div.icon p, div.fact
 /* ---------------------------------Fun-Facts-------------------------------------------- */
 
 
+div.container-main div.speakers-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+div.container-main div.speakers-title h1{
+    font-weight: 400;
+    font-size: 2.3em;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+div.container-main div.speakers-title h1 span{
+    font-weight: 700;
+}
+
+div.container-main div.speakers-title h2{
+    font-weight: 300;
+    color: #A2A2A2;
+    font-size: 1.2em;
+}
+
+div.container-main div.speakers-container{
+    width: auto;
+    height: 340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+div.container-main div.speakers-container  div.speaker{
+    height: auto;
+}
+
+div.container-main div.speakers-container  div.speaker img{
+    height: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #6B76FF;
+
+}
+
+div.container-main div.speakers-container  div.speaker ul{
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+}
+
+
+
+div.container-main div.speakers-container  div.speaker li{
+    list-style: none;
+    margin: auto 10px;
+}
+
+
+div.container-main div.speakers-container  div.speaker li i{
+    font-size: 20px;
+}
+
+div.container-main div.speakers-container h2, div.container-main div.speakers-container h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+div.container-main div.speakers-container h3{
+    font-weight: 400;
+    color: #A2A2A2;
+    font-size: 1em;
+}
+
+
+
